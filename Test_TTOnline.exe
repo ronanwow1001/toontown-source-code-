@@ -1,5 +1,10 @@
 @echo off
 cd ../astron/win32
+start start_all.bat
+rem Read the contents of PPYTHON_PATH into %PPYTHON_PATH%:
+set /P PPYTHON_PATH=<PPYTHON_PATH
+
+rem Get the user input:
 if launcher:
     launcher.setRegistry('EXIT_PAGE', 'normal')
 
