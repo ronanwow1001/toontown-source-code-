@@ -1,4 +1,12 @@
-DirectStart: Starting the game...
+@echo off
+cd ..
+
+rem Read the contents of PPYTHON_PATH into %PPYTHON_PATH%:
+set /P PPYTHON_PATH=<PPYTHON_PATH
+
+rem Get the user input
+
+DirectStart: Starting the game.
 :express(debug): mount / under /
 :interrogatedb(debug): Creating interrogate database
 :interrogatedb(debug): Got interrogate data for module libdownloader
