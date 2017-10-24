@@ -1,4 +1,4 @@
-DirectStart: Starting the game.
+DirectStart: Starting the game...
 :express(debug): mount / under /
 :interrogatedb(debug): Creating interrogate database
 :interrogatedb(debug): Got interrogate data for module libdownloader
