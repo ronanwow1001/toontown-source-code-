@@ -1,7 +1,3 @@
-Known pipe types:
-  wdxGraphicsPipe8
-  wglGraphicsPipe
-(all display modules loaded.)
 DirectStart: Starting the game.
 :express(debug): mount / under /
 :interrogatedb(debug): Creating interrogate database
