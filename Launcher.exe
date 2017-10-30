@@ -1,11 +1,14 @@
 @echo off
-cd ..
+cd ../
+
+"C:/Panda3D-1.7.2/python/ppython.exe" main.py
+
+server:
 
 rem Read the contents of PPYTHON_PATH into %PPYTHON_PATH%:
 set /P PPYTHON_PATH=<PPYTHON_PATH
 
 rem Get the user input
-
 DirectStart: Starting the game.
 :express(debug): mount / under /
 :interrogatedb(debug): Creating interrogate database
@@ -273,4 +276,5 @@ Known pipe types:
 2903007232, Free: 2894712832 for device #0
 :display:wdxdisplay9: GetAvailableVidMem (no AGP) returns Total: 3181838336, Fre
 e: 3173543936 for device #0
-run ()
+
+goto: server
