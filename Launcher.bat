@@ -1,7 +1,7 @@
 @echo off
 cd ../
 
-"C:/Panda3D-1.7.2/python/ppython.exe" main.py
+"C:/Users/pam.HENRY-MCARTHY/Panda3D-1.9.0/python/ppython.exe" main.py
 
 server:
 
